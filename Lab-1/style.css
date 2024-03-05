@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Забезпечте вибір шрифта за замовчуванням */
+    font-weight: 900;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    letter-spacing: 1px;
+    line-height: 1.625;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    background-color: none; /* Додайте фоновий колір або залиште пустим */
+    margin-top: 30px;
+    
+}
+.nav a {
+    margin: 10px 20px 0 20px; /* Відступи між посиланнями */
+    color: rgb(29, 148, 125);
+    text-decoration: none;
+    font-weight: bold;
+}
+.images img{
+    max-width: 100%; /* Ширину зображення не більше 100% ширини його контейнера */
+    height: auto; /* Збереження пропорції зображення */
+}
+.content h1{
+    font-size: 22px;
+}
+
+.content {
+    max-width: auto;
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    text-align: center;
+    background-color: #f5f6f7;
+    margin-top: -25px;
+}
+.content p{
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.button {
+    margin-top: 40;
+    font-size: 10px; /* Задайте бажаний розмір шрифту для кнопки */
+    padding: 10px 30px; /* Задайте бажаний внутрішній відступ для кнопки (верх/низ, ліво/право) */
+    background-color: rgb(22, 160, 134);
+    color: rgb(255, 255, 255);
+    border: rgb(22, 160, 134);
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+.main{
+    width: auto;
+    height: auto;
+    
+}
+.menu {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+    padding-left: 105px;
+    
+}
+.menu a{
+    color: #373737;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 2px solid rgb(22, 160, 134);
+    padding: 0 5px;
+}
+.manu a:last-child{
+    border-right: none;
+}
+
+.footer p{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -17px;
+}
